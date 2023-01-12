@@ -8,13 +8,46 @@ function mostraAtor(){
   image(imagemDoAtor, xAtor, yAtor, 30, 30)
 }
 
+/*
 function movimentaAtor(){
-  if (keyIsDown(UP_ARROW)){
+  if (keyIsDown(UP_ARROW || 87)){
     yAtor -= 3;
   }
-  if (keyIsDown(DOWN_ARROW)){
+  if (keyIsDown(DOWN_ARROW || 83)){
     if (podeSeMover()){
     yAtor += 3;
+    }
+  }
+}
+function movimentaXAtor(){
+  if (keyIsDown(LEFT_ARROW || 65)){
+    xAtor -= 3;
+  }
+  if (keyIsDown(RIGHT_ARROW || 68)){
+    if (podeSeMover()){
+    xAtor += 3;
+    }
+  }
+}
+*/
+
+function movimentaAtor(){
+  if (keyIsDown(UP_ARROW || 87)){
+    yAtor -= 2;
+  }
+  else{
+    if (keyIsDown(DOWN_ARROW || 83) && yAtor < 366){
+      yAtor += 2;
+    }
+    else{
+      if (keyIsDown(LEFT_ARROW || 65) && xAtor > 0){
+        xAtor -=2;
+      }
+      else{
+        if (keyIsDown(RIGHT_ARROW || 68) && xAtor < 470){
+          xAtor +=2;
+        }
+      }
     }
   }
 }
@@ -35,6 +68,7 @@ function verificaColisao(){
 
 function voltaAtorParaPosicaoInicial(){
   yAtor = 366;
+  xAtor = 85;
 }
 
 function incluiPontos(){
@@ -55,7 +89,8 @@ function marcaPonto(){
 function pontosMaiorQueZero(){
   return meusPontos > 0
 }
-
+/*
 function podeSeMover(){
   return yAtor < 366;
 }
+*/

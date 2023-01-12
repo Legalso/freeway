@@ -6,8 +6,6 @@ Version v0.7.3 | June 22, 2020
 CC BY-NC-SA 4.0
 */
 
-
-
 p5.prototype._collideDebug = false;
 
 p5.prototype.collideDebug = function(debugMode){

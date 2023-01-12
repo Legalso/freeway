@@ -13,6 +13,6 @@ function draw() {
   verificaColisao();
   incluiPontos();
   marcaPonto();
-  
+  //movimentaXAtor();
 }
   
