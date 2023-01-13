@@ -5,6 +5,8 @@ let yCarros = [40,96,150, 210, 270, 318];
 let velocidadeCarros = [2, 2.5, 3.2, 5, 3.3, 2.3];
 let comprimentoCarro = 50;
 let alturaCarro = 40;
+let n = xCarros.length;
+
 
 function mostraCarro(){
   for (let i = 0; i < imagemCarros.length; i++){
@@ -23,6 +25,20 @@ function voltaPosicaoInicialDoCarro(){
     if(passouTodaATela(xCarros[i])){
       xCarros[i] = 600;
     }
+  }
+}
+
+function sorteiaVelocidade(maximo){
+  var velocidade = 0;
+  while (velocidade == 0){
+    velocidade = Math.floor(Math.random()*maximo);
+  }
+  return velocidade;
+}
+
+function mudaVelocidades(){
+  for (var i = 0; i < n; i++){
+    velocidadeCarros[i] = sorteiaVelocidade(dificuldade);
   }
 }
 

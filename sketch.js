@@ -14,5 +14,5 @@ function draw() {
   incluiPontos();
   marcaPonto();
   //movimentaXAtor();
+  movimentaAtor2();
 }
-  

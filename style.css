@@ -1,7 +1,17 @@
-html, body {
-  margin: 0;
-  padding: 0;
+html {
+  background-color: rgb(17, 17, 17);
+  color: #d9ff00;
 }
-canvas {
+html, head {
+  text-align: center;
+}
+html, body {
+    height: 80%;
+  }
+
+#stylesheet {
+  margin: 0;
   display: block;
+  justify-content: center;
+  align-items: center;
 }
