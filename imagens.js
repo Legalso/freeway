@@ -20,8 +20,8 @@ function preload(){
   //imagemCarro2 = loadImage("imagens/carro-2.png");
   //imagemCarro3 = loadImage("imagens/carro-3.png");
   imagemCarro = loadImage("imagens/ufo.gif");
-  imagemCarro2 = loadImage("imagens/spaceshipGif.gif");
-  imagemCarro3 = loadImage("imagens/satelite.gif");
+  imagemCarro2 = loadImage("imagens/satelite.gif");
+  imagemCarro3 = loadImage("imagens/spaceshipGif.gif");
   imagemCarros = [imagemCarro, imagemCarro2, imagemCarro3, imagemCarro, imagemCarro2, imagemCarro3]
   
   somDaTrilha = loadSound("sons/trilha.mp3");
