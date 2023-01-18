@@ -1,12 +1,12 @@
 //código do ator
 let xAtor = 85;
-let yAtor = 366;
+let yAtor = 356;
 let colisao = false;
 let meusPontos = 0;
 var dificuldade = 3;
 
 function mostraAtor(){
-  image(imagemDoAtor, xAtor, yAtor, 30, 30)
+  image(imagemDoAtor, xAtor, yAtor, 40, 50)
 }
 
 /*
@@ -77,7 +77,7 @@ function movimentaAtor2(){
 function verificaColisao(){
   //collideRectCircle(x1, y1, width1, height1, cx, cy, diameter)
   for (let i = 0; i < imagemCarros.length; i++){
-    colisao = collideRectCircle(xCarros[i], yCarros[i], comprimentoCarro, alturaCarro, xAtor, yAtor, 15)
+    colisao = collideRectCircle(xCarros[i], yCarros[i], comprimentoCarro, alturaCarro, 30, 30, 15)
     if (colisao){
       voltaAtorParaPosicaoInicial();
       perdePonto();
