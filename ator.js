@@ -87,7 +87,7 @@ function verificaColisao(){
 }
 
 function voltaAtorParaPosicaoInicial(){
-  yAtor = 366;
+  yAtor = 356;
   xAtor = 85;
 }
 
