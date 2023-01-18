@@ -17,9 +17,11 @@ function preload(){
   //imagemDoAtor = loadImage("imagens/ator-1.png");
   imagemDoAtor = loadImage("imagens/spaceship.png");
   //imagemCarro = loadImage("imagens/carro-1.png");
+  //imagemCarro2 = loadImage("imagens/carro-2.png");
+  //imagemCarro3 = loadImage("imagens/carro-3.png");
   imagemCarro = loadImage("imagens/ufo.gif");
-  imagemCarro2 = loadImage("imagens/carro-2.png");
-  imagemCarro3 = loadImage("imagens/carro-3.png");
+  imagemCarro2 = loadImage("imagens/spaceshipGif.gif");
+  imagemCarro3 = loadImage("imagens/satelite.gif");
   imagemCarros = [imagemCarro, imagemCarro2, imagemCarro3, imagemCarro, imagemCarro2, imagemCarro3]
   
   somDaTrilha = loadSound("sons/trilha.mp3");
