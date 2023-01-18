@@ -6,7 +6,7 @@ let meusPontos = 0;
 var dificuldade = 3;
 
 function mostraAtor(){
-  image(imagemDoAtor, xAtor, yAtor, 40, 40)
+  image(imagemDoAtor, xAtor, yAtor, 30, 55)
 }
 
 /*
