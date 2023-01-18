@@ -24,7 +24,7 @@ function preload(){
   imagemCarro3 = loadImage("imagens/spaceshipGif.gif");
   imagemCarros = [imagemCarro, imagemCarro2, imagemCarro3, imagemCarro, imagemCarro2, imagemCarro3]
   
-  somDaTrilha = loadSound("sons/trilha.mp3");
+  somDaTrilha = loadSound("sons/space.mp3");
   somDaColisao = loadSound("sons/colidiu.mp3");
   somDoPonto = loadSound("sons/pontos.wav");
 }

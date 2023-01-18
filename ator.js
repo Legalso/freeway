@@ -1,6 +1,6 @@
 //código do ator
 let xAtor = 85;
-let yAtor = 356;
+let yAtor = 360;
 let colisao = false;
 let meusPontos = 0;
 var dificuldade = 3;
@@ -87,7 +87,7 @@ function verificaColisao(){
 }
 
 function voltaAtorParaPosicaoInicial(){
-  yAtor = 356;
+  yAtor = 360;
   xAtor = 85;
 }
 
